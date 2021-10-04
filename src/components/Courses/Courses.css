@@ -1,0 +1,17 @@
+.course-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 0 50px;
+}
+
+.search-container{
+    height: 100px;
+    text-align: center;
+    line-height: 40px;
+}
+.search-container input{
+    width: 60%;
+    padding: 10px;
+    margin-top: 20px;
+}
